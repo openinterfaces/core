@@ -1,7 +1,7 @@
-Open-Interfaces
-===============
+OpenInterfaces
+==============
 
-website: http://open-interfaces.org
+website: http://openinterfaces.org
 
 repositories: https://github.com/openinterfaces
 
