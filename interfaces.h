@@ -12,8 +12,7 @@ bool owned(object_id, bool *is_owned);
 
 
 // high-level solver interfaces
-bool solver_init(object_id problem, object_id options, object_id solution_options, object_id *solver);
-bool solution_init(object_id options); // solution_init or solution_option in solver_init??
+bool solver_init(object_id problem, const char *options, object_id *solver);
 bool solver_run(object_id solver, object_id parameters, object_id *solution);
 
 bool solution_eval(object_id solution, sized_array at, sized_array *evaluations); // caller owns return
