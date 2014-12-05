@@ -7,7 +7,7 @@ typedef struct {
 
 
 // basic interface functions
-bool decref(object_id object);
+bool release(object_id object);
 bool owned(object_id, bool *is_owned);
 
 
